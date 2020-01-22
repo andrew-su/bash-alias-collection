@@ -1,0 +1,11 @@
+# ------------------------------------
+# Generic alias and function
+# ------------------------------------
+
+alias ssh='ssh -q'
+alias testzip='unzip -t'
+alias ll='ls -l'
+alias lla='ls -al'
+alias ls='ls -G'
+alias lastdir="ls -td * | head -1"
+alias watch="watch -n0"

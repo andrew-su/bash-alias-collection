@@ -1,0 +1,6 @@
+# ------------------------------------
+# Kubernetes alias and function
+# ------------------------------------
+
+# Create a pod on the cluster which has curl.
+alias kcurl='kubectl run --generator=run-pod/v1 curl-$RANDOM --image=radial/busyboxplus:curl -i --tty --rm'

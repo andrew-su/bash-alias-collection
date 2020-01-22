@@ -1,0 +1,6 @@
+# ------------------------------------
+# Git alias and function
+# ------------------------------------
+
+# Prunes all branch that isn't master or current and has been merged.
+alias pb='git branch --merged | grep -v "\*" | grep -v "master" | xargs -n 1 git branch -d'

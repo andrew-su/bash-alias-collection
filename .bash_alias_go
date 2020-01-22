@@ -1,0 +1,6 @@
+# ------------------------------------
+# Go alias and function
+# ------------------------------------
+
+# Apply gofmt on all go source files.
+alias format-go="find src -type f -iname '*.go' -exec gofmt -l -w {} \;"
